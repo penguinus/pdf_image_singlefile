@@ -8,8 +8,13 @@ Body:
 
 Implementation
 ==============
-Simple quick implementation in standalone PHP file. 
-In real project using some MVC framework is recommended.
+Simple quick implementation in standalone PHP file. In real project using some MVC framework is recommended.
+Uses FPDF and FPDI for PDF manipulations, 
+GD is used for image manipulations. Possible image formats are GIF, JPEG, PNG. 
+Expected image size is 150px x 110px, image will be resized to that size automatically.
+Temporary files are saved to the same directory with index.php. 
+Changing it to some safe path is a point for todo. 
+
 
 Installation
 ============
