@@ -1,0 +1,7 @@
+{
+  "require": {
+    "ext-gd": "*",
+    "setasign/fpdi": "^2.3",
+    "setasign/fpdf": "^1.8"
+  }
+}
